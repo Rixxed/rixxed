@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Payment</title>
+  </head>
+  <body>
+    <div class="background">
+      <h1>Student Balance</h1>
+      <div class="money">
+        <table>
+          <tr>
+            <th>Amount Paid</th>
+            <th>Amount Remaining</th>
+            <th>Total Amount</th>
+          </tr>
+          <tr>
+            <td>&#8369; 5000</td>
+            <td>&#8369; 4000</td>
+            <td>&#8369; 9000</td>
+          </tr>
+        </table>
+        <br />
+        <form action="receipt.html">
+          <fieldset>
+            <legend>MONEHHH</legend>
+            <label for="moneh">Amount:</label>
+            <input type="text" id="moneh" name="moneh" /><br />
+
+            <input type="radio" id="gcash" name="method" value="GCASH" />
+            <label for="gcash">Gcash</label>
+            <input type="radio" id="maya" name="method" value="MAYA" />
+            <label for="maya">PayMaya</label>
+            <input type="radio" id="bank" name="method" value="BANK" />
+            <label for="bank">Bank</label>
+          </fieldset>
+          <br />
+
+          <div class="sub_container">
+            <input type="submit" id="proceed" value="Proceed with Payment" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

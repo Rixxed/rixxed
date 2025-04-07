@@ -1,0 +1,143 @@
+@font-face {
+    font-family: playfair;
+    src: url(../PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: playfair;
+}
+
+.background {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    background-image: url(../img/granbilibid.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.form_container {
+    width: 20%;
+    min-width: 20%;
+    max-height: 80%;
+    margin: 0% 35%;
+    padding: 40px;
+    border: 2px solid #ccc;
+    background: rgba(240, 240, 240, 0.5);
+    border-radius: 20px;
+    border-color: blue;
+}
+
+.input_container {
+    text-align: center;
+    min-width: 100%;
+}
+
+button:hover {
+    background-color: rgb(28, 145, 255);
+    color: white;
+}
+
+form {
+    display: block;
+    color: white;
+    max-width: 100%;
+    min-width: 80%;
+}
+
+label {
+    color: black;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+
+#search, #proceed{
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    border-color: rgb(0, 120, 255);
+    font-weight: bold;
+}
+
+#search:hover, #proceed:hover{
+    background-color: rgb(0, 150, 255);
+}
+
+h1 {
+    justify-content: left;
+    color: black;
+    font-size: 3vw;
+    padding-bottom: 1vw;
+    padding-left: 1vw;
+    background: rgba(240, 240, 240, 0.6);
+}
+
+h2 {
+    color: black;
+    font-size: 1.5vw;
+}
+
+.money {
+    max-width: 100%;
+    min-width: 20%;
+    max-height: 80%;
+    margin: 0% 35%;
+    padding: 40px;
+    border: 2px solid #ccc;
+    background: rgba(240, 240, 240, 0.6);
+    border-radius: 20px;
+    border-color: blue;
+}
+
+th, td{
+    padding: 1%;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+legend {
+    font-weight: bold;
+    color: black;
+}
+
+.sub_container {
+    text-align: center;
+}
+
+#proceed {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+fieldset {
+    border: 2px solid black;
+}
+
+.fb {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    background:rgba(240, 240, 240, 0.5);
+    font-size: 1.5vw;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
